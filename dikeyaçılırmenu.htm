@@ -1,0 +1,53 @@
+<style>
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+    border-buttom: 1px solid #000;
+}
+ul li {
+    position:relative;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    background-color: #e2e2e2;
+    padding: 5px;
+    border: 1px solid #000;
+    border-buttom: 0;
+}
+
+li ul {
+    position: absolute;
+    left: 149px;
+    top: 0;
+    display: none;
+}
+li:hover ul {
+    display: block;
+}
+
+     
+</style>
+<ul id="menu" >
+    <li><a href="#">Anasayfa</a></li>
+    <li><a href="#">Haberler</a>
+    <ul>
+        <li><a href="#">Sžirket Haberleri </a></li>
+        <li><a href="#">Yurt içi Haberleri </a></li>
+        <li><a href="#">Yurt dýþý Haberleri</a></li>
+    </ul>
+    </li>
+    <li><a href="#">Ürünler</a>
+    <ul>
+        <li><a href="#">Tencere</a></li>
+        <li><a href="#">Tava</a></li>
+        <li><a href="#">Ütü</a></li>
+        <li><a href="#">Tost Makinesi </a></li>
+        <li><a href="#">El Süpürgesi </a></li>
+    </ul>
+    </li>
+</ul>

@@ -1,0 +1,62 @@
+<style>
+ul#menu, ul#menu ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+ul#menu li {
+   float:left;
+   position:relative;
+   width: 150px;
+}
+ul#menu li a {
+   font: bold 11px arial, helvetica, sans-serif;
+   display: block;
+   border-width: 1px;
+   border-style: solid;
+   border-color: #ccc #888 #555 #bbb;
+   margin: 0;
+   padding: 2px 3px;
+   color: #000;
+   background: #efefef;
+   text-decoration: none;
+}
+
+ul#menu li ul {
+   display: none;
+   position: absolute;
+   top: 19px;
+   left: 0;
+}
+  ul#menu li:hover ul, ul#menu li.over ul {
+   display: block;
+  }
+ul#menu li a:hover { <!-- üstüne geliceki renk-->
+   color: #f00;
+   background: #ff1;
+}
+
+
+   
+   
+
+</style>
+<ul id="menu" >
+    <li><a href="#">Anasayfa</a></li>
+    <li><a href="#">Haberler</a>
+    <ul>
+        <li><a href="#">Þirket Haberleri </a></li>
+        <li><a href="#">Yurt içi Haberleri </a></li>
+        <li><a href="#">Yurt dýþý Haberleri</a></li>
+    </ul>
+    </li>
+    <li><a href="#">Ürünler</a>
+    <ul>
+        <li><a href="#">Tencere</a></li>
+        <li><a href="#">Tava</a></li>
+        <li><a href="#">Ütü</a></li>
+        <li><a href="#">Tost Makinesi </a></li>
+        <li><a href="#">El Süpürgesi </a></li>
+    </ul>
+    </li>
+</ul>
